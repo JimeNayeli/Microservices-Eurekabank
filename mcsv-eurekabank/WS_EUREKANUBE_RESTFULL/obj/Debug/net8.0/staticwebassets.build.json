@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "grscQuGjQLGf+ykfu3HLFOLvH4RpnyBFdo7pVYEOBcc=",
+  "Source": "WS_EUREKANUBE_RESTFULL",
+  "BasePath": "_content/WS_EUREKANUBE_RESTFULL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

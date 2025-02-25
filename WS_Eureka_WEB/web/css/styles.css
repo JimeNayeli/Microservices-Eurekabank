@@ -1,0 +1,518 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-ene-2025, 15:27:01
+    Author     : ckan1
+*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.background {
+    background: url('../assets/fondo_back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cuenta-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.cuenta-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cuenta-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.cuenta-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.menu-container{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.menu-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.menu-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.menu-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.menu-container button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.menu-container button:hover {
+    background-color: #0056b3;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+/* Controles en una fila */
+.account-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre los elementos */
+    margin-bottom: 20px;
+}
+
+/* Botones principales */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.9;
+}
+
+
+
+/* Tabla de movimientos con scroll */
+.movement-table-wrapper {
+    width: 100%;
+    max-height: 400px; /* Altura máxima con scroll */
+    overflow-y: auto; /* Habilitar scroll vertical */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo de tabla */
+.movement-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.movement-table th, .movement-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.movement-table th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0; /* Encabezados pegajosos */
+    z-index: 1;
+}
+
+.no-movements {
+    padding: 20px;
+    text-align: center;
+    color: #888;
+}
+
+select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 2px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilo cuando el usuario hace clic en el selector */
+select:focus {
+    border-color: #007bff; /* Cambia el borde a azul */
+    outline: none; /* Quita el borde predeterminado del navegador */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega un efecto de sombra */
+}
+
+/* Estilo para las opciones dentro del selector */
+select option {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* 🟢 Estilo para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* Fondo oscuro más elegante */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 700px; /* Más ancho */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🟢 Botón de cierre del modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* 🟢 Tabla de detalles */
+.detalle-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
+
+.detalle-table th, .detalle-table td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: left;
+}
+
+.detalle-table th {
+    background-color: #007bff; /* Azul fuerte */
+    color: white; /* Texto blanco */
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilo para la tabla */
+.modal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.modal-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    text-align: left;
+    width: 30%;
+}
+
+.modal-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    width: 70%;
+}
+
+/* Estilo para los campos de solo lectura */
+.detalle-table input[type="text"],
+.detalle-table input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.detalle-table input[readonly] {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el contenedor de la contraseña */
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    padding-right: 35px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Estilos para los botones */
+.form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos para los inputs con estado */
+.detalle-table input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    outline: none;
+}
+
+.detalle-table input:invalid {
+    border-color: #dc3545;
+}
+
+.detalle-table input::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+/* Estilos para el aviso de advertencia */
+.warning-box {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.warning-icon {
+    font-size: 24px;
+}
+
+.warning-box p {
+    margin: 0;
+    color: #856404;
+}
+
+/* Estilos para el checkbox personalizado */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #dc3545;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* Estilos para el botón de peligro */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-danger:disabled {
+    background-color: #dc354580;
+    cursor: not-allowed;
+}
+
+/* 🟢 Asegurar que la tabla no se desborde */
+@media (max-width: 600px) {
+    .modal-content {
+        width: 95%;
+    }
+    .detalle-table th, .detalle-table td {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+

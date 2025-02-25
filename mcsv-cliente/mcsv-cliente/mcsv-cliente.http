@@ -1,0 +1,6 @@
+@mcsv_cliente_HostAddress = http://localhost:5234
+
+GET {{mcsv_cliente_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

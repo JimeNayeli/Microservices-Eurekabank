@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "mcsv_login.Controllers.LoginController",
+    "Method": "AutenticarCliente",
+    "RelativePath": "api/Login/cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "mcsv_login.Models.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mcsv_login.Controllers.LoginController",
+    "Method": "AutenticarEmpleado",
+    "RelativePath": "api/Login/empleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "mcsv_login.Models.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

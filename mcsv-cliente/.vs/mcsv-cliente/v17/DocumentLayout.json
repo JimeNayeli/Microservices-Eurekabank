@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\models\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\models\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\mcsv-cliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|c:\\users\\jimena\\desktop\\microeureka\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0451298D-A8F5-4C41-8002-7C34EBC82E2C}|mcsv-cliente\\mcsv-cliente.csproj|solutionrelative:mcsv-cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "mcsv-cliente.http",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente.http",
+              "RelativeDocumentMoniker": "mcsv-cliente\\mcsv-cliente.http",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente.http",
+              "RelativeToolTip": "mcsv-cliente\\mcsv-cliente.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-16T00:46:50.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Models\\ClienteDTO.cs",
+              "RelativeDocumentMoniker": "mcsv-cliente\\Models\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Models\\ClienteDTO.cs",
+              "RelativeToolTip": "mcsv-cliente\\Models\\ClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T07:55:50.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "mcsv-cliente\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Services\\ClienteService.cs",
+              "RelativeToolTip": "mcsv-cliente\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T07:49:51.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "mcsv-cliente\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Models\\Cliente.cs",
+              "RelativeToolTip": "mcsv-cliente\\Models\\Cliente.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwvy4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T21:57:54.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "mcsv-cliente\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "mcsv-cliente\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T21:54:21.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "mcsv-cliente\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "mcsv-cliente\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T21:53:31.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Program.cs",
+              "RelativeDocumentMoniker": "mcsv-cliente\\Program.cs",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\Program.cs",
+              "RelativeToolTip": "mcsv-cliente\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T21:51:18.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\appsettings.json",
+              "RelativeDocumentMoniker": "mcsv-cliente\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jimena\\Desktop\\MICROEUREKA\\mcsv-cliente\\mcsv-cliente\\mcsv-cliente\\appsettings.json",
+              "RelativeToolTip": "mcsv-cliente\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T21:50:47.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

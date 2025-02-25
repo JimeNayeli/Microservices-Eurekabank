@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "mcsv_cuenta.Controllers.CuentasController",
+    "Method": "ActualizarEstadoCuenta",
+    "RelativePath": "api/Cuentas/{codigoCuenta}/cancelar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCuenta",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "mcsv_cuenta.Models.ActualizarEstadoCuentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mcsv_cuenta.Controllers.CuentasController",
+    "Method": "ObtenerDetallesCuenta",
+    "RelativePath": "api/Cuentas/{codigoCuenta}/detalles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCuenta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mcsv_cuenta.Controllers.CuentasController",
+    "Method": "ObtenerCuentasActivas",
+    "RelativePath": "api/Cuentas/activas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[mcsv_cuenta.Models.CuentaActivaDTO, mcsv-cuenta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sSXO1y0L7tFGeLSpASShKvMHy9H99SBYQTKAA8t3Pgc=",
+  "Source": "mcsv-cliente",
+  "BasePath": "_content/mcsv-cliente",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

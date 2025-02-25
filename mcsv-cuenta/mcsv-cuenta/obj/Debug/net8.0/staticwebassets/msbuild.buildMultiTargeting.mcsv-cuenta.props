@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mcsv-cuenta.props" />
+</Project>

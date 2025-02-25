@@ -1,0 +1,154 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WS_EUREKANUBE_RESTFULL",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Eureka/movimientos/{cuenta}": {
+      "get": {
+        "tags": [
+          "Eureka"
+        ],
+        "parameters": [
+          {
+            "name": "cuenta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Eureka/deposito": {
+      "post": {
+        "tags": [
+          "Eureka"
+        ],
+        "parameters": [
+          {
+            "name": "cuenta",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "importe",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Eureka/retiro": {
+      "post": {
+        "tags": [
+          "Eureka"
+        ],
+        "parameters": [
+          {
+            "name": "cuenta",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "importe",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Eureka/transferencia": {
+      "post": {
+        "tags": [
+          "Eureka"
+        ],
+        "parameters": [
+          {
+            "name": "cuentaOrigen",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cuentaDestino",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "importe",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Eureka/validar-usuario": {
+      "post": {
+        "tags": [
+          "Eureka"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

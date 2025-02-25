@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "WS_EUREKANUBE_RESTFULL.Controllers.EurekaController",
+    "Method": "RegistrarDeposito",
+    "RelativePath": "Eureka/deposito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuenta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "importe",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_EUREKANUBE_RESTFULL.Controllers.EurekaController",
+    "Method": "LeerMovimientos",
+    "RelativePath": "Eureka/movimientos/{cuenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuenta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_EUREKANUBE_RESTFULL.Controllers.EurekaController",
+    "Method": "RegistrarRetiro",
+    "RelativePath": "Eureka/retiro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuenta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "importe",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_EUREKANUBE_RESTFULL.Controllers.EurekaController",
+    "Method": "RegistrarTransferencia",
+    "RelativePath": "Eureka/transferencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuentaOrigen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cuentaDestino",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "importe",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_EUREKANUBE_RESTFULL.Controllers.EurekaController",
+    "Method": "ValidarUsuario",
+    "RelativePath": "Eureka/validar-usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
